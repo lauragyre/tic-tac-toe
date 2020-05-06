@@ -9,14 +9,14 @@
 
 body {
     background-color: lightgrey;
-    padding: 5vw 10vw;
+    padding: 5vw 7vw;
 }
 
 #winner {
     font-size: 2rem;
     padding-bottom: 1rem;
     font-weight: bold;
-    color: salmon;
+    color:salmon;
 }
 
 #board {
@@ -55,4 +55,9 @@ body {
 
 .square:hover, #reset:hover {
     opacity: 75%;
+}
+
+#reset:focus {
+    border: 0;
+    outline: 0;
 }
