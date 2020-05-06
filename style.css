@@ -4,12 +4,19 @@
     font-size: 16px;
     font-family: Ubuntu, sans-serif;
     box-sizing: border-box;
+    color: darkgray;
 }
 
 body {
     background-color: lightgrey;
-    padding: 10vw;
-    color: darkgray;
+    padding: 5vw 10vw;
+}
+
+#winner {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    color: salmon;
 }
 
 #board {
@@ -31,5 +38,21 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 5rem;
+    border-radius: 10px;
     
+}
+
+#reset {
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 2rem;
+    border: 0;
+    border-radius: 10px;
+
+}
+
+.square:hover, #reset:hover {
+    opacity: 75%;
 }
